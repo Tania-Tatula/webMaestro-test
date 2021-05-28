@@ -1,0 +1,83 @@
+.body {
+  position: relative;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  height: 440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url('../images/xpharma-phan-mem-nha-thuoc-gpp.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-content {
+  width: 276px;
+  height: 117px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 127px;
+}
+
+.hero-content_tile {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.22;
+  text-align: center;
+}
+
+.hero-content_button {
+  width: 200px;
+  height: 45px;
+  display: block;
+  margin-top: 54px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #f76f0d;
+  border: none;
+  border-radius: 2px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1, 25;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-content_button:focus,
+.hero-content_button:hover {
+  background: #f94d03;
+}
+
+@media (min-width: 1200px) {
+  .hero-content {
+    width: 482px;
+    height: 204px;
+    margin-right: 110px;
+    margin-top: 170px;
+  }
+
+  .hero-content_tile {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 0.82;
+    text-align: right;
+  }
+
+  .hero-content_button {
+    margin-top: 25px;
+    margin-right: 0;
+  }
+  .hero-overlay {
+    height: 614px;
+  }
+}

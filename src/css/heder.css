@@ -1,0 +1,152 @@
+.page-header,
+.page-header_block {
+  width: 100%;
+  display: flex;
+}
+
+.page-header_block {
+  z-index: 1;
+  margin-top: 28px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-button {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  display: inline-block;
+}
+
+.menu-button-svg {
+  height: 25px;
+}
+
+.heder-logo {
+  display: inline-block;
+}
+.heder-logo__img {
+  width: 125px;
+  height: 41px;
+}
+
+.menu {
+  display: none;
+}
+
+.language {
+  width: 32px;
+  height: 58px;
+  margin-top: 34px;
+  margin-right: 54px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.line {
+  height: 1px;
+  width: 16px;
+  display: block;
+  margin: auto;
+  margin: auto;
+  background-color: #c4c4c4;
+}
+
+.language_button {
+  height: 29px;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  justify-content: center;
+  background-color: inherit;
+  border: none;
+  color: #7b7e7b;
+}
+
+.language_button:focus {
+  color: #000000;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contact-list {
+  width: 143px;
+  height: 59px;
+}
+
+.contact-icon {
+  margin-left: 13px;
+}
+
+.contact-tel {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  color: #000000;
+}
+
+.contact-tel_icon {
+  display: block;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 1200px) {
+  .heder-logo__img {
+    width: 216px;
+    height: 71px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .menu {
+    display: inline-flex;
+    width: 855px;
+    height: 98px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
+  }
+  .menu-list {
+    width: 480px;
+    height: 100%;
+    margin-right: 38px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 24px;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .menu-item {
+    display: flex;
+    height: 20px;
+
+    align-items: center;
+  }
+
+  .menu-item:hover,
+  .menu-item:focus {
+    border-top: 1px solid #313131;
+    border-bottom: 1px solid #313131;
+  }
+
+  .container {
+    padding-right: 0;
+  }
+}
