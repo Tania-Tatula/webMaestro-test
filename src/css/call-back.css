@@ -1,0 +1,98 @@
+.call-back {
+  height: 335px;
+  background-image: url(../images/getty.png);
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+}
+.call-back-block {
+  background-color: #b9dcea;
+}
+
+.cal-back_title {
+  display: block;
+  width: 246px;
+  padding-top: 27px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cal-back_contacts {
+  width: 235px;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts-form {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 26px;
+  padding-left: 50px;
+  background-position: 9px center;
+  background-repeat: no-repeat;
+}
+
+.cal-back_contact__name {
+  background-image: url('../images/avatar.svg');
+}
+
+.cal-back_contacts__mail {
+  background-image: url('../images/iphone-2.svg');
+}
+
+.cal-back_contacts__button {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.form-icon-svg {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+@media (min-width: 1201px) {
+  .call-back-block {
+    background-image: url(../images/getty.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+  }
+
+  .call-back {
+    background-image: none;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 931px) {
+  .call-back {
+    background-position-x: right;
+    margin-bottom: 108px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .call-back {
+    height: 377px;
+  }
+  .cal-back_title {
+    width: 492px;
+    margin-left: 140px;
+    padding-top: 42px;
+    font-size: 36px;
+  }
+
+  .cal-back_contacts {
+    margin-top: 35px;
+    margin-left: 269px;
+  }
+}

@@ -14,7 +14,7 @@ body {
   font-size: 14px;
   line-height: 1.21;
   color: #000000;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 
 /* body.modal-open {
@@ -66,9 +66,28 @@ p {
 }
 
 button,
+input,
 a :active,
 :hover,
 :focus {
   outline: 0;
   outline-offset: 0;
+  border: none;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  background: #f76f0d;
+  border-radius: 2px;
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button:focus,
+.button:hover {
+  background: #f94d03;
 }

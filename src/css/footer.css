@@ -1,0 +1,156 @@
+.footer-list {
+  width: 232px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 205px;
+}
+
+.footer-logo {
+  width: 100%;
+}
+
+.contact-tel {
+  margin-top: 28px;
+}
+
+.contact-tel_icon {
+  margin-bottom: 17px;
+}
+
+.contact-icon {
+  margin-left: 6px;
+}
+
+.contacts {
+  margin-top: 50px;
+}
+
+.footer-icon {
+  width: 31px;
+}
+
+.contact-icon-tel {
+  margin-top: 28px;
+}
+
+.footer-mail,
+.footer-schedule {
+  margin-top: 47px;
+  display: flex;
+}
+
+.footer-schedule {
+  margin-bottom: 67px;
+}
+
+.footer-mail_text {
+  margin-left: 12px;
+}
+
+.footer-mail_text,
+.footer-schedule_text {
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.05em;
+}
+
+.contact-icon-schedule {
+  align-items: start;
+}
+
+.logo-webmaestro {
+  width: 164px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.сopyright {
+  display: block;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #a79f9f;
+}
+
+@media (min-width: 1200px) {
+  .footer-line {
+    width: 980px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d6d8d6;
+  }
+
+  .footer-list {
+    width: 1073px;
+    margin-top: 61px;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* justify-content: space-between; */
+    align-items: start;
+    flex: 0 0 0 0 50%;
+  }
+
+  .footer-logo {
+    width: 190px;
+    margin-right: 99px;
+  }
+
+  .contacts {
+    margin-top: 0;
+    margin-right: 100px;
+  }
+
+  .contact-tel_icon {
+    margin-bottom: 5px;
+  }
+
+  .contact-tel {
+    margin-top: 15px;
+  }
+
+  .footer-icon {
+    text-align: start;
+  }
+
+  .contact-icon-tel {
+    margin-top: 15px;
+  }
+
+  .footer-mail,
+  .footer-schedule {
+    margin-top: 0;
+  }
+  .footer-mail {
+    margin-bottom: 21px;
+  }
+
+  .footer-schedule {
+    margin-bottom: 0;
+  }
+
+  .footer-information-contsiner {
+    margin-right: 75px;
+  }
+
+  .logo-webmaestro {
+    width: 164px;
+    height: 37px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .сopyright {
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 55px;
+  }
+
+  .сopyright-info {
+    width: 200px;
+  }
+}
