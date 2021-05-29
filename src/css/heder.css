@@ -41,6 +41,7 @@
   height: 58px;
   margin-top: 34px;
   margin-right: 54px;
+  margin-left: 24px;
   display: inline-block;
   text-align: center;
   justify-content: center;
@@ -72,7 +73,8 @@
   color: #000000;
 }
 
-.contacts {
+.contacts,
+.footer-contacts {
   display: flex;
   flex-wrap: nowrap;
   margin-top: auto;
@@ -123,7 +125,7 @@
   .menu-list {
     width: 480px;
     height: 100%;
-    margin-right: 38px;
+
     display: flex;
     flex-wrap: nowrap;
     margin-left: 24px;

@@ -13,15 +13,15 @@
   margin-top: 28px;
 }
 
-.contact-tel_icon {
+.footer-contact-tel_icon {
   margin-bottom: 17px;
 }
 
-.contact-icon {
+.contact-icon-footer {
   margin-left: 6px;
 }
 
-.contacts {
+.footer-contacts {
   margin-top: 50px;
 }
 
@@ -99,12 +99,12 @@
     margin-right: 99px;
   }
 
-  .contacts {
+  .footer-contacts {
     margin-top: 0;
     margin-right: 100px;
   }
 
-  .contact-tel_icon {
+  .footer-contact-tel_icon {
     margin-bottom: 5px;
   }
 
