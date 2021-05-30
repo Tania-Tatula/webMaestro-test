@@ -9,7 +9,12 @@
   width: 100%;
 }
 
-.contact-tel {
+.footer-contact-tel {
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  color: #000000;
   margin-top: 28px;
 }
 
@@ -108,7 +113,7 @@
     margin-bottom: 5px;
   }
 
-  .contact-tel {
+  .footer-contact-tel {
     margin-top: 15px;
   }
 
