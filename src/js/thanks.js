@@ -1,14 +1,14 @@
-  const refs = {
-    openThanksModsllBtn: document.querySelector('[data-modal-open]'),
-    closeThsnksModalBtn: document.querySelector('[data-modal-close]'),
-    ThanksModal: document.querySelector('[data-modal]'),
-  };
+    const openThanksModsllBtn = document.querySelector('[data-modal-open]');
+    const closeThsnksModalBtn = document.querySelector('[data-modal-close]');
+    const ThanksModal = document.querySelector('[data-modal]');
+    const body = document.querySelector('.body-block');
+  
 
-  refs.openThanksModsllBtn.addEventListener('click', toggleModal);
-  refs.closeThsnksModalBtn.addEventListener('click', toggleModal);
+  openThanksModsllBtn.addEventListener('click', toggleModal);
+  closeThsnksModalBtn.addEventListener('click', toggleModal);
 
   function toggleModal() {
-    document.body.classList.toggle("modal-open");
-    refs.ThanksModal.classList.toggle('is-hidden');
+    body.classList.toggle("modal-open");
+    ThanksModal.classList.toggle('is-hidden');
   
   }
