@@ -1,0 +1,71 @@
+body.modal-open {
+  overflow: hidden;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  opacity: 1;
+  transition: all 0.3s;
+  overflow-y: scroll;
+}
+
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.5);
+}
+
+.is-hidden {
+  position: relative;
+}
+
+.thank {
+  position: absolute;
+  width: 300px;
+  height: 246px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  text-align: center;
+  line-height: 1.22;
+}
+
+.thank-title {
+  padding-bottom: 19px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.thank-text {
+  display: inline-block;
+  width: 233px;
+  padding-bottom: 57px;
+  font-size: 18px;
+}
+
+.thank-button {
+  width: 130px;
+  height: 35px;
+}
+@media (min-width: 1200px) {
+  .thank {
+    width: 426px;
+  }
+
+  .thank-button {
+    width: 130px;
+    height: 35px;
+    margin-left: 148px;
+    margin-right: 148px;
+  }
+}

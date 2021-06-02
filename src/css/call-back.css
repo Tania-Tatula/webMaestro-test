@@ -1,4 +1,5 @@
 .call-back {
+  position: relative;
   height: 335px;
   background-image: url(../images/getty.png);
   background-position-x: 50%;

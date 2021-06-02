@@ -408,13 +408,19 @@
             <input class="cal-back_contact__name contacts-form" type="text" name="name" placeholder="Ваше ім’я" autocomplete="off">
             <input class="cal-back_contacts__mail contacts-form" type="tel" name="tel" autocomplete="off"
             pattern="+38 [0-9]{10}" placeholder="+38 (___) ___-__-__">
-            <button class="button cal-back_contacts__button contacts-form">
+            <button class="button cal-back_contacts__button contacts-form" data-modal-open> 
               <svg class="form-icon-svg" width="25px" height="25px">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
             </svg>
             Передзвоніть мені</button>
-
-
+            <div class="backdrop" data-modal>
+            <div class="thank" >
+              <h3 class="thank-title">Дякуємо за звернення!</h3> 
+              <p class="thank-text">Ми зв’яжемося з Вами в найкоротший час</p>
+              <button class="button thank-button" data-modal-close>
+              OK</button>
+            </div>
+          </div>
           </div>
       </section>
     </div>
