@@ -568,9 +568,11 @@
             получить заказ???</h2>
   
           <div class="cal-back_contacts">
+            <form action="">
             <input class="cal-back_contact__name contacts-form" type="text" name="name" placeholder="Ваше ім’я" autocomplete="off">
-            <input class="cal-back_contacts__mail contacts-form" type="tel" name="tel" autocomplete="off"
-            pattern="+38 [0-9]{10}" placeholder="+38 (___) ___-__-__">
+            <input class="cal-back_contacts__mail contacts-form" id="phone-mask" type="tel" name="tel" autocomplete="off"
+            pattern="+38 [0-9]{10}" placeholder="+38 (___) ___-__-__" >
+          </form>
             <button class="button cal-back_contacts__button contacts-form" data-modal-open> 
               <svg class="form-icon-svg" width="25px" height="25px">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
@@ -614,7 +616,7 @@
       </ul>
       <ul class="list">
         <li class="footer-contact-tel_icon">
-          <a href="" width="30px" height="30px" >
+          <a href="viber://chat?number=%2B380985581156" width="30px" height="30px" >
           <svg class="contact-icon-footer" width="30px" height="30px" >
           <use href="./images/symbol-defs.svg#icon-viber"></use>
       </svg>

@@ -50,6 +50,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "handlebars": "^4.7.6",
+    "imask": "^6.0.7",
     "normalize.css": "^8.0.1"
   }
 }
