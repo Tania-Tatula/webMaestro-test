@@ -6,8 +6,8 @@ const Language = {
 const body = document.querySelector('.body-block');
 const ru = document.querySelector('.ru-btn');
 const ua = document.querySelector('.ua-btn');
-const ruText = document.querySelector('.ru-text');
-const uaText = document.querySelector('.ua-text')
+const ruText = document.querySelectorAll('.ru-text');
+const uaText = document.querySelectorAll('.ua-text');
 
 
 // відразу встановлюємо українську мову
@@ -61,12 +61,16 @@ function сhangesLanguageUa(){
 // додає стилі на елементи з класами тексту тієї мови, яку треба приховати
 function langPage (){
     if(body.classList.contains("ua")){
-      uaText.removeAttribute("style");
-      ruText.setAttribute("style", "display: none;");
+      // uaText.removeAttribute("style");
+      uaText.forEach(text => text.removeAttribute("style"));
+      ruText.forEach(text => text.setAttribute("style", "display: none;"));
+      // ruText.setAttribute("style", "display: none;");
     }
     if(body.classList.contains("ru")){
-      ruText.removeAttribute("style");
-      uaText.setAttribute("style", "display: none;")
+      // ruText.removeAttribute("style");
+      ruText.forEach(text => text.removeAttribute("style"));
+      uaText.forEach(text => text.setAttribute("style", "display: none;"));
+      // uaText.setAttribute("style", "display: none;")
 }
 }
 

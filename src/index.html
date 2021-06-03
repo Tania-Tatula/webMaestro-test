@@ -31,13 +31,18 @@
       <nav class="navigation">
       <ul class="menu-list list">
         <li class="menu-item">
-          <a href="" class="link menu-link"> Про нас </a></li>
+          <a href="" class="link menu-link"> <span class="ua-text">Про нас</span> 
+          <span class="ru-text"> О нас</span></a></li>
         <li class="menu-item">
-          <a href="" class="link menu-link"> Товари</a></li>
+          <a href="" class="link menu-link"> <span class="ua-text">Товари</span> 
+            <span class="ru-text">Товары</span></a></li>
         <li class="menu-item">
-          <a href="" class="link menu-link"> Доставка і оплата</a></li>
+          <a href="" class="link menu-link"> <span class="ua-text">Доставка і оплата</span>
+            <span class="ru-text">Доставка и оплата</span> 
+            </a></li>
         <li class="menu-item">
-          <a href="" class="link menu-link"> Відгуки покупців</a></li>
+          <a href="" class="link menu-link"> <span class="ua-text">Відгуки покупців</span> 
+            <span class="ru-text">Отзывы покупателей</span> </a></li>
       </ul>
     </nav>
       <div class="language">
@@ -84,11 +89,17 @@
     <main>
       <div class="hero hero-overlay container">
         <div class="hero-content">
-          <h1 class="hero-content_tile">
+          <h1 class="hero-content_tile ua-text">
             Ліки з Польщі<br>
             за найкращими<br>
             цінами</h1>
-            <button class="hero-content_button button" type="button">Замовити</button>
+            <h1 class="hero-content_tile ru-text">
+              Лекарства <br>
+              из Польши <br>
+              лучшие цены</h1>
+            <button class="hero-content_button button" type="button"> 
+              <span class="ua-text">Замовити</span> 
+              <span class="ru-text">Заказать</span></button>
         </div>
       </div>
 
@@ -99,25 +110,49 @@
           <div class="goods">
           <article class="goods-card">
             <div class="goods-title block">
-            <h3 class="goods-title_text">Білобіл форте</h3>
+            <h3 class="goods-title_text ua-text">Білобіл форте</h3>
+            <h3 class="goods-title_text ru-text">Билобил форте</h3>
+
             <button type="button" class="goods-title_button"></button>
           </div>
+
             <div class="goods-img tumb">
               <img src="./images/bilobil.png" alt="" class="goods-img-url">
               <div class="goods-info">
-                <p class="goods-info-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+                <div class="availability">
+                  <div class="check">
+                    <svg class="check-svg" width="12px" height="9px">
+                      <use href="./images/symbol-defs.svg#icon-check"></use>
+                  </svg>
+        
+                  </div>
+                  <p class="ua-text">В наявності</p>
+                  <p class="ru-text">В наличии</p>
+        
+                </div>
+                <p class="goods-info-text ua-text">Препарат Білобіл® форте є препаратом рослинного походження.</p>
 
-                  <p class="goods-info-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p></div>
-            </div>
+                  <p class="goods-info-text ua-text">Підвищує стійкість організму до гіпоксії, особливо тканин головного мозку.</p>
+            
+                  <p class="goods-info-text ru-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+
+                  <p class="goods-info-text ru-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p>
+                </div>
+
+                </div>
               <ul class="goods-information list">
                 <li class="goods-informetion_list list">
                   <a href="" download="" class="link goods-informetion_link">
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-pdf"></use>
                   </svg>
-                  <span class="goods-informetion_text">
+                  <span class="goods-informetion_text ua-text">
                     Інструкція <br>
                     з використання
+                  </span>
+                  <span class="goods-informetion_text ru-text">
+                    Инструкция <br>
+                    к использованию
                   </span>
                   </a>
                   
@@ -127,8 +162,9 @@
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-youtube"></use>
                   </svg>
-                  <span class="goods-informetion_text text-transform">Відеоогляд</span>
-                 </button>
+                  <span class="goods-informetion_text text-transform ua-text">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ru-text">Видеообзор</span>
+                </button>
                   <!-- <div class="goods-informetion_video">
                   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bMPOfhoDVwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> -->
@@ -142,31 +178,53 @@
                       <use href="./images/symbol-defs.svg#icon-shopping-cart"></use>
                   </svg>
               </span>
-              Замовити
+              <span class="ua-text">Замовити</span> 
+              <span class="ru-text">Заказать</span>
               </button>
             </div>
           </article>
           <article class="goods-card">
             <div class="goods-title block">
-            <h3 class="goods-title_text">Білобіл форте</h3>
+            <h3 class="goods-title_text ua-text">Білобіл форте</h3>
+            <h3 class="goods-title_text ru-text">Билобил форте</h3>
             <button type="button" class="goods-title_button"></button>
           </div>
           <div class="goods-img tumb">
             <img src="./images/bilobil.png" alt="" class="goods-img-url">
             <div class="goods-info">
-              <p class="goods-info-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+              <div class="availability">
+                <div class="check">
+                  <svg class="check-svg" width="12px" height="9px">
+                    <use href="./images/symbol-defs.svg#icon-check"></use>
+                </svg>
+      
+                </div>
+                <p class="ua-text">В наявності</p>
+                <p class="ru-text">В наличии</p>
+      
+              </div>
+              <p class="goods-info-text ua-text">Препарат Білобіл® форте є препаратом рослинного походження.</p>
 
-                <p class="goods-info-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p></div>
-          </div>
+              <p class="goods-info-text ua-text">Підвищує стійкість організму до гіпоксії, особливо тканин головного мозку.</p>
+        
+              <p class="goods-info-text ru-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+
+              <p class="goods-info-text ru-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p>
+            </div>
+      </div>
             <ul class="goods-information list">
                 <li class="goods-informetion_list list">
                   <a href="" download="" class="link goods-informetion_link">
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-pdf"></use>
                   </svg>
-                  <span class="goods-informetion_text">
+                  <span class="goods-informetion_text ua-text">
                     Інструкція <br>
                     з використання
+                  </span>
+                  <span class="goods-informetion_text ru-text">
+                    Инструкция <br>
+                    к использованию
                   </span>
                   </a>
                   
@@ -176,7 +234,8 @@
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-youtube"></use>
                   </svg>
-                  <span class="goods-informetion_text text-transform">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ua-text">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ru-text">Видеообзор</span>
                  </button>
                   <!-- <div class="goods-informetion_video">
                   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bMPOfhoDVwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -191,23 +250,43 @@
                       <use href="./images/symbol-defs.svg#icon-shopping-cart"></use>
                   </svg>
               </span>
-              Замовити
+              <span class="ua-text">Замовити</span> 
+              <span class="ru-text">Заказать</span>
               </button>
             </div>
           </article>
 
           <article class="goods-card">
             <div class="goods-title block">
-            <h3 class="goods-title_text">Моваліс</h3>
+            <h3 class="goods-title_text ua-text">Моваліс</h3>
+            <h3 class="goods-title_text ru-text">Мовалис</h3>
+
             <button type="button" class="goods-title_button"></button>
           </div>
           <div class="goods-img tumb">
             <img src="./images/movalis.png" alt="" class="goods-img-url">
-            <div class="goods-info">
-              <p class="goods-info-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
 
-                <p class="goods-info-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p></div>
-          </div>
+            <div class="goods-info">
+              <div class="availability">
+                <div class="check">
+                  <svg class="check-svg" width="12px" height="9px">
+                    <use href="./images/symbol-defs.svg#icon-check"></use>
+                </svg>
+      
+                </div>
+                <p class="ua-text">В наявності</p>
+                <p class="ru-text">В наличии</p>
+      
+              </div>
+              <p class="goods-info-text ua-text">Препарат Білобіл® форте є препаратом рослинного походження.</p>
+
+              <p class="goods-info-text ua-text">Підвищує стійкість організму до гіпоксії, особливо тканин головного мозку.</p>
+        
+              <p class="goods-info-text ru-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+
+              <p class="goods-info-text ru-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p>
+            </div>
+      </div>
 
               <ul class="goods-information list">
                 <li class="goods-informetion_list list">
@@ -215,9 +294,13 @@
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-pdf"></use>
                   </svg>
-                  <span class="goods-informetion_text">
+                  <span class="goods-informetion_text ua-text">
                     Інструкція <br>
                     з використання
+                  </span>
+                  <span class="goods-informetion_text ru-text">
+                    Инструкция <br>
+                    к использованию
                   </span>
                   </a>
                   
@@ -227,7 +310,8 @@
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-youtube"></use>
                   </svg>
-                  <span class="goods-informetion_text text-transform">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ua-text">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ru-text">Видеообзор</span>
                  </button>
                   <!-- <div class="goods-informetion_video">
                   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bMPOfhoDVwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -242,23 +326,42 @@
                       <use href="./images/symbol-defs.svg#icon-shopping-cart"></use>
                   </svg>
               </span>
-              Замовити
+              <span class="ua-text">Замовити</span> 
+              <span class="ru-text">Заказать</span>
               </button>
             </div>
           </article>
 
           <article class="goods-card">
             <div class="goods-title block">
-            <h3 class="goods-title_text">Бетасерк</h3>
+            <h3 class="goods-title_text ua-text">Бетасерк</h3>
+            <h3 class="goods-title_text ru-text">Бетасерк</h3>
+
             <button type="button" class="goods-title_button"></button>
           </div>
           <div class="goods-img tumb">
             <img src="./images/betas.png" alt="Бетасерк" class="goods-img-url">
             <div class="goods-info">
-              <p class="goods-info-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+              <div class="availability">
+                <div class="check">
+                  <svg class="check-svg" width="12px" height="9px">
+                    <use href="./images/symbol-defs.svg#icon-check"></use>
+                </svg>
+      
+                </div>
+                <p class="ua-text">В наявності</p>
+                <p class="ru-text">В наличии</p>
+      
+              </div>
+              <p class="goods-info-text ua-text">Препарат Білобіл® форте є препаратом рослинного походження.</p>
 
-                <p class="goods-info-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p></div>
-          </div>
+              <p class="goods-info-text ua-text">Підвищує стійкість організму до гіпоксії, особливо тканин головного мозку.</p>
+        
+              <p class="goods-info-text ru-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+
+              <p class="goods-info-text ru-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p>
+            </div>
+      </div>
 
               <ul class="goods-information list">
                 <li class="goods-informetion_list list">
@@ -266,9 +369,13 @@
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-pdf"></use>
                   </svg>
-                  <span class="goods-informetion_text">
+                  <span class="goods-informetion_text ua-text">
                     Інструкція <br>
                     з використання
+                  </span>
+                  <span class="goods-informetion_text ru-text">
+                    Инструкция <br>
+                    к использованию
                   </span>
                   </a>
                   
@@ -278,7 +385,8 @@
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-youtube"></use>
                   </svg>
-                  <span class="goods-informetion_text text-transform">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ua-text">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ru-text">Видеообзор</span>
                  </button>
                   <!-- <div class="goods-informetion_video">
                   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bMPOfhoDVwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -293,23 +401,42 @@
                       <use href="./images/symbol-defs.svg#icon-shopping-cart"></use>
                   </svg>
               </span>
-              Замовити
+              <span class="ua-text">Замовити</span> 
+              <span class="ru-text">Заказать</span>
               </button>
             </div>
           </article>
 
           <article class="goods-card">
             <div class="goods-title block">
-            <h3 class="goods-title_text">Сіофор 850</h3>
+            <h3 class="goods-title_text ua-text">Сіофор 850</h3>
+            <h3 class="goods-title_text ru-text">Сиофор 850</h3>
+
             <button type="button" class="goods-title_button"></button>
           </div>
           <div class="goods-img tumb">
             <img src="./images/siofor.png" alt="Сіофор 850" class="goods-img-url">
             <div class="goods-info">
-              <p class="goods-info-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+              <div class="availability">
+                <div class="check">
+                  <svg class="check-svg" width="12px" height="9px">
+                    <use href="./images/symbol-defs.svg#icon-check"></use>
+                </svg>
+      
+                </div>
+                <p class="ua-text">В наявності</p>
+                <p class="ru-text">В наличии</p>
+      
+              </div>
+              <p class="goods-info-text ua-text">Препарат Білобіл® форте є препаратом рослинного походження.</p>
 
-                <p class="goods-info-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p></div>
-          </div>
+              <p class="goods-info-text ua-text">Підвищує стійкість організму до гіпоксії, особливо тканин головного мозку.</p>
+        
+              <p class="goods-info-text ru-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+
+              <p class="goods-info-text ru-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p>
+            </div>
+      </div>
 
               <ul class="goods-information list">
                 <li class="goods-informetion_list list">
@@ -317,9 +444,13 @@
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-pdf"></use>
                   </svg>
-                  <span class="goods-informetion_text">
+                  <span class="goods-informetion_text ua-text">
                     Інструкція <br>
                     з використання
+                  </span>
+                  <span class="goods-informetion_text ru-text">
+                    Инструкция <br>
+                    к использованию
                   </span>
                   </a>
                   
@@ -329,7 +460,8 @@
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-youtube"></use>
                   </svg>
-                  <span class="goods-informetion_text text-transform">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ua-text">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ru-text">Видеообзор</span>
                  </button>
                   <!-- <div class="goods-informetion_video">
                   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bMPOfhoDVwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -344,7 +476,8 @@
                       <use href="./images/symbol-defs.svg#icon-shopping-cart"></use>
                   </svg>
               </span>
-              Замовити
+              <span class="ua-text">Замовити</span> 
+              <span class="ru-text">Заказать</span>
               </button>
             </div>
           </article>
@@ -352,25 +485,47 @@
 
           <article class="goods-card">
             <div class="goods-title block">
-            <h3 class="goods-title_text">Клостибегіт</h3>
+            <h3 class="goods-title_text ua-text">Клостибегіт</h3>
+            <h3 class="goods-title_text ru-text">Клостыбегит</h3>
+
             <button type="button" class="goods-title_button"></button>
           </div>
           <div class="goods-img tumb">
             <img name = "s" src="./images/clostilbegit.png" alt="Клостибегіт" class="goods-img-url">
             <div class="goods-info">
-              <p class="goods-info-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+              <div class="availability">
+                <div class="check">
+                  <svg class="check-svg" width="12px" height="9px">
+                    <use href="./images/symbol-defs.svg#icon-check"></use>
+                </svg>
+      
+                </div>
+                <p class="ua-text">В наявності</p>
+                <p class="ru-text">В наличии</p>
+      
+              </div>
+              <p class="goods-info-text ua-text">Препарат Білобіл® форте є препаратом рослинного походження.</p>
 
-                <p class="goods-info-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p></div>
-          </div>
+              <p class="goods-info-text ua-text">Підвищує стійкість організму до гіпоксії, особливо тканин головного мозку.</p>
+        
+              <p class="goods-info-text ru-text">Препарат Билобил® форте является препаратом растительного происхождения.</p>
+
+              <p class="goods-info-text ru-text">Повышает устойчивость организма к гипоксии, особенно тканей головного мозга.</p>
+            </div>
+      </div>
               <ul class="goods-information list">
                 <li class="goods-informetion_list list">
                   <a href="" download="" class="link goods-informetion_link">
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-pdf"></use>
                   </svg>
-                  <span class="goods-informetion_text">
+                  <span class="goods-informetion_text ua-text">
                     Інструкція <br>
                     з використання
+                  </span>
+                  <span class="goods-informetion_text ru-text">
+                    Инструкция <br>
+                    к использованию
                   </span>
                   </a>
                   
@@ -380,7 +535,8 @@
                     <svg class="icon-svg" width="30px" height="30px">
                       <use href="./images/symbol-defs.svg#icon-youtube"></use>
                   </svg>
-                  <span class="goods-informetion_text text-transform">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ua-text">Відеоогляд</span>
+                  <span class="goods-informetion_text text-transform ru-text">Видеообзор</span>
                  </button>
                   <!-- <div class="goods-informetion_video">
                   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bMPOfhoDVwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -395,7 +551,8 @@
                       <use href="./images/symbol-defs.svg#icon-shopping-cart"></use>
                   </svg>
               </span>
-              Замовити
+              <span class="ua-text">Замовити</span> 
+              <span class="ru-text">Заказать</span>
               </button>
             </div>
           </article>
@@ -405,8 +562,11 @@
       </section>
       <div class="call-back-block">
       <section class="container call-back">
-        <h2 class="cal-back_title">Бажаєте швидше
+        <h2 class="cal-back_title ua-text">Бажаєте швидше
           отримати замовлення???</h2>
+          <h2 class="cal-back_title ru-text">Хотите быстрее
+            получить заказ???</h2>
+  
           <div class="cal-back_contacts">
             <input class="cal-back_contact__name contacts-form" type="text" name="name" placeholder="Ваше ім’я" autocomplete="off">
             <input class="cal-back_contacts__mail contacts-form" type="tel" name="tel" autocomplete="off"
@@ -415,11 +575,16 @@
               <svg class="form-icon-svg" width="25px" height="25px">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
             </svg>
-            Передзвоніть мені</button>
+            <span class="ua-text">Передзвоніть мені</span>
+            <span class="ru-text">Перезвоните мне</span>
+            </button>
             <div class="backdrop is-hidden" data-modal>
             <div class="thank" >
-              <h3 class="thank-title">Дякуємо за звернення!</h3> 
-              <p class="thank-text">Ми зв’яжемося з Вами в найкоротший час</p>
+              <h3 class="thank-title ua-text">Дякуємо за звернення!</h3> 
+              <h3 class="thank-title ru-text">Спасибо за обращение!</h3> 
+
+              <p class="thank-text ua-text">Ми зв’яжемося з Вами в найкоротший час</p>
+              <p class="thank-text ru-text">Мы свяжемся с Вами в кратчайшие сроки</p>
               <button class="button thank-button" data-modal-close>
               OK</button>
             </div>
@@ -486,7 +651,9 @@
     </div>
       <img class="logo-webmaestro" src="./images/webmaestro.png" alt="Створено студією webmaestro">
 
-      <span class="сopyright">2020 © Всі права захищені</span>
+      <span class="сopyright ua-text">2020 © Всі права захищені</span>
+      <span class="сopyright ru-text">2020 © Все права защищены</span>
+
     </footer>
 
     </main>
