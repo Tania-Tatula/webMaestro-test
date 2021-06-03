@@ -14,7 +14,6 @@ function onOpenInfo(e) {
     } else {
       goodsText.classList.add('info--oppen');
       goodsImg.classList.add('info--oppen');
-
     }
   }
 }

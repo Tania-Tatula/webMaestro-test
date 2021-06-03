@@ -69,6 +69,7 @@ a :active,
   outline: 0;
   outline-offset: 0;
   border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .block {
@@ -92,4 +93,3 @@ a :active,
   opacity: 0;
   visibility: hidden;
 }
-
