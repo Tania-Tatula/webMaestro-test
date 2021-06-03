@@ -87,3 +87,9 @@ a :active,
 .button:hover {
   background: #f94d03;
 }
+
+.language-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+

@@ -94,10 +94,6 @@
   border-radius: 2px;
 }
 
-.language_button:focus {
-  color: #000000;
-}
-
 .contacts {
   width: 180px;
   margin-left: auto;
@@ -216,5 +212,6 @@
 
   .container {
     padding-right: 0;
+    display: none;
   }
 }
